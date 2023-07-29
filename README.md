@@ -1,5 +1,5 @@
 ### **College Database Management System Using Spring**
-![](C:\Users\USER\Desktop\Spring.jpg)
+
 
 DB Management System using Spring Framework that supports CRUD Method with MySQL DB.
 
