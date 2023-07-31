@@ -1,8 +1,10 @@
 package com.trustbycode.Entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 @Table(name = "student")
 public class Student {
 
@@ -30,47 +32,6 @@ public class Student {
         this.firstName = firstName;
         this.lastName = lastName;
         this.department = department;
-        this.schoolEmail = schoolEmail;
-    }
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getDepartment() {
-        return department;
-    }
-
-    public void setDepartment(String department) {
-        this.department = department;
-    }
-
-    public String getSchoolEmail() {
-        return schoolEmail;
-    }
-
-    public void setSchoolEmail(String schoolEmail) {
         this.schoolEmail = schoolEmail;
     }
 }
